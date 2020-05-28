@@ -96,7 +96,4 @@ This project uses **Python 3.6** and the following necessary libraries:
 
 ## 6. Credits and Acknowledgements
 
-Thanks to [Udacity](https://www.udacity.com/) and [Figure Eight](https://www.figure-eight.com) project for providing original dataset with [Multilingual Disaster Response Messages](https://www.figure-eight.com/dataset/combined-disaster-response-data).
-
-
-
+Thanks to [Udacity](https://www.udacity.com/) for providing dataset.
