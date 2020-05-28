@@ -90,7 +90,7 @@ This project uses **Python 3.6** and the following necessary libraries:
     <li> sklean </li>
     <li> seaborn </li>
     <li> scipy </li>
-    
+</ul> 
 
 <a id='credits'></a>
 
