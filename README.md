@@ -71,7 +71,7 @@ In this project, I use the data to answer a business questions:
 ├── data
 │   ├── portfolio.json
 │   ├── profile.json
-│   ├── transcript.json
+│   ├── transcript.json (due to large size, this file is missing)
 
 
 </pre>
