@@ -2,11 +2,12 @@
 
 ## Table of Contents
 
-- [Project Overview](#overview)
-- [Project Components](#components)
-- [Files](#files)
-- [Software Requirements](#sw)  
-- [Credits and Acknowledgements](#credits)
+- [1. Project Overview](#overview)
+- [2. Project Motivation](#motivation)
+- [3. Project Components](#components)
+- [4. Files](#files)
+- [5. Software Requirements](#sw)
+- [6. Credits and Acknowledgements](#credits)
 
 ***
 
@@ -14,17 +15,27 @@
 
 ## 1. Project Overview
 
-In this project, I'll apply data engineering to analyze disaster data from <a href="https://www.figure-eight.com/" target="_blank">Figure Eight</a> to build a model for an API that classifies disaster messages.
+The data set contains simulated data that mimics customer behavior on the Starbucks rewards mobile app. Once every few days, Starbucks sends out an offer to users of the mobile app. An offer can be merely an advertisement for a drink or an actual offer such as a discount or BOGO (buy one get one free). Some users might not receive any offer during certain weeks.
 
-_data_ directory contains a data set which are real messages that were sent during disaster events. I will be creating a machine learning pipeline to categorize these events so that appropriate disaster relief agency can be reached out for help.
+Not all users receive the same offer, and that is the challenge to solve with this data set.
 
-I will also build a web app where an emergency worker can input a new message and get classification results in several categories. The web app will also display visualizations of the data.
+My task is to combine transaction, demographic and offer data to determine which demographic groups respond best to which offer type. This data set is a simplified version of the real Starbucks app because the underlying simulator only has one product whereas Starbucks actually sells dozens of products.
 
-[Here](#ss) are a few screenshots of the web app.
+Because this is a capstone project, I am free to analyze the data any way I see fit. For example, I could build a machine learning model that predicts how much someone will spend based on demographics and offer type. Or I could build a model that predicts whether or not someone will respond to an offer.
+
+<a id='motivation'></a>
+## 2. Project Motivation
+This project is the Capstone project of my Data Scientist nanodegree with Udacity. As students in the nanodegree, we have the option to take part in the Starbucks Capstone Challenge. For the challenge, Udacity provided simulated data that mimics customer behavior on the Starbucks rewards mobile app.
+
+In this project, I use the data to answer a business questions:
+<ul>
+    <li>Which demographic groups respond best to which offer type.</li>
+<li>And create Machine Learning model to predict whether a customer will complete a offer by making transaction after viewing the offer.</li>
+ </ul>
 
 <a id='components'></a>
 
-## 2. Project Components
+## 3. Project Components
 
 <ol>
     <li> Importing Libraries and Reading Dataset </li>
@@ -83,7 +94,7 @@ This project uses **Python 3.6** and the necessary libraries are mentioned in _r
 
 <a id='credits'></a>
 
-## 7. Credits and Acknowledgements
+## 6. Credits and Acknowledgements
 
 Thanks to [Udacity](https://www.udacity.com/) and [Figure Eight](https://www.figure-eight.com) project for providing original dataset with [Multilingual Disaster Response Messages](https://www.figure-eight.com/dataset/combined-disaster-response-data).
 
