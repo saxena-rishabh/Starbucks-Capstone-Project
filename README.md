@@ -66,7 +66,7 @@ In this project, I use the data to answer a business questions:
 ## 4. Files
 
 <pre>
-.
+
 ├── notebook
 ├── data
 │   ├── portfolio.json
