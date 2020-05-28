@@ -67,22 +67,12 @@ In this project, I use the data to answer a business questions:
 
 <pre>
 .
-├── app
-│   ├── run.py------------------------# FLASK FILE THAT RUNS APP
-│   ├
-│   │   
-│   └── templates
-│       ├── go.html-------------------# CLASSIFICATION RESULT PAGE OF WEB APP
-│       └── master.html---------------# MAIN PAGE OF WEB APP
+├── notebook
 ├── data
-│   ├── DisasterResponse.db-----------# DATABASE TO SAVE CLEANED DATA TO
-│   ├── disaster_categories.csv-------# DATA CONTAINING DISASTER CATEGORIES
-│   ├── disaster_messages.csv---------# DATA CONTAINING DISASTER MESSAGES
-│   └── process_data.py---------------# PERFORMS ETL PROCESS
-├── requirements.txt-------------------------------# CONTAINING ALL DEPENDENCIES
-├── models
-│   ├── train_classifier.py-----------# PERFORMS CLASSIFICATION TASK
-    └── classifier.pkl----------------# SAVED MODEL
+│   ├── portfolio.json
+│   ├── profile.json
+│   ├── transcript.json
+
 
 </pre>
 
@@ -90,7 +80,17 @@ In this project, I use the data to answer a business questions:
 
 ## 5. Software Requirements
 
-This project uses **Python 3.6** and the necessary libraries are mentioned in _requirements.txt_.
+This project uses **Python 3.6** and the following necessary libraries:
+<ul>
+    <li> pandas </li>
+    <li> numpy </li>
+    <li> math </li>
+    <li> json </li>
+    <li> matplotlib </li>
+    <li> sklean </li>
+    <li> seaborn </li>
+    <li> scipy </li>
+    
 
 <a id='credits'></a>
 
