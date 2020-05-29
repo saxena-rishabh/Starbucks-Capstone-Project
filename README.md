@@ -1,5 +1,6 @@
 # Starbucks Capstone Project
 
+**The link to the Blog post is [here](https://medium.com/@saxena_rishabh/statistical-data-analysis-of-counter-strike-global-offensive-259e0c2b4962)**
 ## Table of Contents
 
 - [1. Project Overview](#overview)
@@ -7,7 +8,8 @@
 - [3. Project Components](#components)
 - [4. Files](#files)
 - [5. Software Requirements](#sw)
-- [6. Credits and Acknowledgements](#credits)
+- [6. Conclusion](#conclusion)
+- [7. Credits and Acknowledgements](#credits)
 
 ***
 
@@ -67,11 +69,8 @@ In this project, I use the data to answer a business questions:
 
 <pre>
 
-├── notebook
-├── data
-│   ├── portfolio.json
-│   ├── profile.json
-│   ├── transcript.json (due to large size, this file is missing)
+├── notebook 
+├── data - contains dataset in JSON format
 
 
 </pre>
@@ -92,8 +91,20 @@ This project uses **Python 3.6** and the following necessary libraries:
     <li> scipy </li>
 </ul> 
 
+
+<a id='conclusion'></a>
+
+## 6. Conclusion
+
+Overall, I found this project interesting and challenging, mainly due to the structure of the data. I had started out with the business question:
+Which demographic groups respond best to which offer type.
+
+So with Data Analysis, I found
+Male and Female almost equally complete the offer. So offers should be sent equally among them.
+The two most completed offer of type are 'BOGO' and 'Discount'. So these two should be sent to more people.
+People of age 50–70 of income between 60000–90000 respond most to offers type 'BOGO' and 'Discount' So it will be good to send BOGO and Discount offers to these people.
 <a id='credits'></a>
 
-## 6. Credits and Acknowledgements
+## 7. Credits and Acknowledgements
 
 Thanks to [Udacity](https://www.udacity.com/) for providing dataset.
