@@ -1,6 +1,6 @@
 # Starbucks Capstone Project
 
-**The link to the Blog post is [here](https://medium.com/@saxena_rishabh/statistical-data-analysis-of-counter-strike-global-offensive-259e0c2b4962)**
+**The link to the Blog post is [here](https://medium.com/@saxena_rishabh/analyzing-starbucks-app-offers-54557645a138)**
 ## Table of Contents
 
 - [1. Project Overview](#overview)
