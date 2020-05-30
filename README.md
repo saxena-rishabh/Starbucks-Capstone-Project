@@ -96,14 +96,27 @@ This project uses **Python 3.6** and the following necessary libraries:
 
 ## 6. Conclusion
 
-Overall, I found this project interesting and challenging, mainly due to the structure of the data. I had started out with the business question:
-Which demographic groups respond best to which offer type.
+Overall, I found this project interesting and challenging, mainly due to the structure of the data. I had started out with the business question: <br>
+<ul>
+    <li>Which demographic groups respond best to which offer type.</li>
+    <li>And create Machine Learning model to predict whether a customer will complete a offer by making transaction after viewing the offer.</li>
+</ul>
+So with Explanatory Data Analysis, I found
+<ul>
+<li>Male and Female almost equally complete the offer. So offers should be sent equally among them.</li>
+<li>The two most completed offer of type are 'BOGO' and 'Discount'. So these two should be sent to more people.</li>
+<li>People of age 50–70 of income between 60000–90000 respond most to offers type 'BOGO' and 'Discount'. So it will be good to send BOGO and Discount offers to these people.</li>
+</ul>
 
-So with Data Analysis, I found
-Male and Female almost equally complete the offer. So offers should be sent equally among them.
-The two most completed offer of type are 'BOGO' and 'Discount'. So these two should be sent to more people.
-People of age 50–70 of income between 60000–90000 respond most to offers type 'BOGO' and 'Discount' So it will be good to send BOGO and Discount offers to these people.
-<a id='credits'></a>
+And created a Machine Learning model to predict whether a customer will complete an offer by making transaction after viewing the offer with the accuracy of 1. I may be getting an accuracy of 1 due to considering only the most important features and dropping all unnecessary features.
+
+**Future Work**:
+<ul>
+  <li>There may be overfitting which can be solved by considering more data.</li>
+  <li>Build Machine Learning Pipeline to seamlessly classify new data.</li>
+  <li>Make Machine Learning model to predict transaction amount.</li>
+  <li>Deploy Machine Learning model to web.</li>
+</ul>
 
 ## 7. Credits and Acknowledgements
 
